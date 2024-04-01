@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE Libros SYSTEM "/BD_Libros.xsd">
+<!DOCTYPE Libros SYSTEM "BD_Libros.xsl">
 
 <Libros>
     <libro>
