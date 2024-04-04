@@ -1,0 +1,11 @@
+update insert
+  <baile id="{max(doc("DB_BailesDeSalon.xml")//baile/@id) + 1}">
+    <nombre>Swing</nombre>
+    <precio cuota="trimestral" moneda="euro">38</precio>
+    <plazas>20</plazas>
+    <comienzo>01/03/2012</comienzo>
+    <fin>30/11/2012</fin>
+    <profesor>Lindy Hopkins</profesor>
+    <sala>1</sala>
+  </baile>
+into doc("DB_BailesDeSalon.xml")//Bailes

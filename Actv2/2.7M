@@ -1,0 +1,5 @@
+update value
+  replace $baile/profesor/text() with "Angel Correllada",
+          $baile/plazas/text() with 14
+  where $baile/nombre/text() = "Swing"
+  return $baile

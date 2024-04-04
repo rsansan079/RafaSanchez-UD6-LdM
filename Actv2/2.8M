@@ -1,0 +1,4 @@
+update delete
+  $baile
+  where $baile/@id = 5
+  return $baile

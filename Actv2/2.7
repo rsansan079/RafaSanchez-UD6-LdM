@@ -1,0 +1,6 @@
+let $baile_to_replace := doc("DB_BailesDeSalon.xml")//baile[nombre = "Foxtrot" and profesor = "Freddy Astaire"]
+return
+(
+  replace value of node $baile_to_replace/profesor/text() with "Angel Correllada",
+  replace value of node $baile_to_replace/plazas/text() with "14"
+)
