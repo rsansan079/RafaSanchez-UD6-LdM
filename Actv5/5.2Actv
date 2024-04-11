@@ -1,0 +1,21 @@
+declare namespace ns = "http://www.example.org";
+
+declare variable $nuevoLibro := 
+<libro>
+    <Cod_Libro>11</Cod_Libro>
+    <Titulo>El señor de los anillos</Titulo>
+    <Editorial>Minotauro</Editorial>
+    <Edicion>1</Edicion>
+    <ISBN>9788445071411</ISBN>
+    <NumPaginas>1216</NumPaginas>
+    <Autores>
+        <autor>
+            <Cod_Autor>11</Cod_Autor>
+            <Nombre>J.R.R.</Nombre>
+            <Apellidos>Tolkien</Apellidos>
+            <FechaNacimiento>03/01/1892</FechaNacimiento>
+        </autor>
+    </Autores>
+</libro>;
+
+$nuevoLibro

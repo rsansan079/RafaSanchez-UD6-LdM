@@ -1,0 +1,5 @@
+declare namespace ns = "http://www.example.org";
+
+let $document := doc("BD_Libros.xml")
+return
+    delete node $document//libro[Cod_Libro = 11]
